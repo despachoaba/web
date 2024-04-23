@@ -1,0 +1,360 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - ABA</title>
+     <!--FONT AWESOME-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+     <!--FONT OSWALD-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,500&display=swap" rel="stylesheet"> 
+      <!--CUSTOM CSS-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="Esstil.css">
+      <script src="script.js"></script>
+      <link rel="icon" href="./Iconos/logo icono.png" type="img">
+</head>
+<body>
+    <div class="">
+        <a href="ABA Page.html">
+            <center>
+            <img src="./Img/LOGO ABA.png" alt="" class="dlog" data-aos="fade-down">
+        </center>
+        </a>
+    </div>
+    <div class="Name" data-aos="fade-up">
+        <center>
+        <p class="ABA">Abogados Barbosa & Asociados</p>
+    </center>
+    </div>
+
+    <img src="./Cont/Overlay 1.png" alt="" class="over1">
+
+    
+    <div class="menu" data-aos="fade-down">
+        <a href="ABA Page.html" class="menuuno"><i class="fa-solid fa-house"></i> Inicio</a>
+        &nbsp; &nbsp;
+        <a href="Contacto.html" class="menuuno" >
+            <i class="fa-solid fa-user"></i> Contacto
+        </a>
+        &nbsp; &nbsp;
+        <a href="" class="menuuno"><i class="fa-solid fa-cart-shopping"></i> Servicios</a>
+    </div>
+    <div class="contenedor">
+    <div data-aos="fade-right">
+        <img src="./Cont/DIVEXP.png" alt="" class="icons">
+        <p class="DEX" data-aos="fade-right">DIVORCIO EXPRESS</p>
+        <p class="desc1" data-aos="fade-right">Se le brinda la asesoría al conyuge que desea con no continuar con su matrimonio sin necesidad de especificar una razón concreta para la disolución de este.</p>
+       <br><br>
+        <button class="boton1" onclick="mostrar();">Mas Información</button>
+    </div>
+    <div id="cuadro">
+        <p class="txt">___________</p>
+        <button class="boton2" onclick="ocultar();">cerrar</button>
+    </div>
+
+    <div data-aos="fade-right">
+        <img src="./Cont/Intest.png" alt="" class="icons">
+        <p class="DEX" data-aos="fade-right">INTESTADO</p>
+        <p class="desc1" data-aos="fade-right">Cuando una persona digase padre o madre no dejó previamente un testamento al momento de fallecer y no designa a quien dejara cada uno de sus bienes por lo que pues uno se les asesora legalmente para designar quien se quedara con cada bien que se dejo sin testamento.</p>
+       <br><br>
+        <a href="" class="boton1">Mas Información</a>
+    </div>
+
+    <div data-aos="fade-right">
+        <img src="./Cont/Aseso.png" alt="" class="icons">
+        <p class="DEX" data-aos="fade-right">ASESORIAS</p>
+        <p class="desc1" data-aos="fade-right">En cuestion de tramites de  pensión alimenticia cuando el padre no da el porcentaje que es debido por ley a sus hijos asi como checar tramites tales como el afore, puntos infonavit, etc.</p>
+       <br><br>
+        <a href="" class="boton1">Mas Información</a>
+    </div>
+  
+
+    <div data-aos="fade-right">
+        <img src="./Cont/Laboral.png" alt="" class="icons">
+        <p class="DEX" data-aos="fade-right">LABORAL</p>
+        <p class="desc1" data-aos="fade-right">Si el trabajador se encuentre en inconformidad  con el patron por temas de malas condiciones laborales, falta de pago o por no tener asegurado al trabajador al seguro o cualquier otra irregularidad laboral. </p>
+       <br><br>
+        <a href="" class="boton1">Mas Información</a>
+    </div>
+ 
+    <div data-aos="fade-right">
+        <img src="./Cont/usucapion.png" alt="" class="icons">
+        <p class="DEX" data-aos="fade-right">USUCAPIÓN</p>
+        <p class="desc1" data-aos="fade-right">Cuando uno se hace posedor de una vivienda la cual por el pasó del tiempo el posedor puede llegar a ser propietario del bien la  cual con ayuda de asesoría jurídica se le puede ayudar a escriturarla a su nombre.</p>
+       <br><br>
+        <a href="" class="boton1">Mas Información</a>
+    </div>
+    <div data-aos="fade-right">
+        <img src="./Cont/correct.png" alt="" class="icons">
+        <p class="DEX" data-aos="fade-right">CORRECIÓN DE ACTAS</p>
+        <p class="desc1" data-aos="fade-right">Si algun documento tiene un error al momento de su elaboración que requiera de ser corregido uno le puede ayudar para modificarlo.</p>
+       <br><br>
+        <a href="" class="boton1">Mas Información</a>
+    </div>
+   
+    <div data-aos="fade-right">
+        <img src="./Cont/pens.png" alt="" class="icons">
+        <p class="DEX" data-aos="fade-right">PENSIÓN</p>
+        <p class="desc1" data-aos="fade-right">Si es trabajador o pensionado y/o beneficiario de una pensión y no se le a proporcionado se le asesora para solicitarla por temas de viudez, vejes, orfandad o incapacidad.</p>
+       <br><br>
+        <a href="" class="boton1">Mas Información</a>
+    </div>
+    <div data-aos="fade-right">
+        <img src="./Cont/DONACION.png" alt="" class="icons">
+        <p class="DEX" data-aos="fade-right">DONACIÓN</p>
+        <p class="desc1" data-aos="fade-right">Se le brinda ayuda para señalar y trasmitir de manera contractual a quien o quienes  podran disponer de sus bienes y derechos  cuando el donante se encuentre con vida para hacerlo.</p>
+       <br><br>
+        <a href="" class="boton1">Mas Información</a>
+    </div>
+</div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="social" >
+  <p data-aos="fade-up">Nuestras Redes Sociales</p>
+  <div  class="links">
+      <a href="https://www.facebook.com/" >
+          <i class="fab fa-facebook-f" data-aos="fade-up"></i>
+      </a>
+      <a href="https://www.instagram.com/" class="insta">
+          <i class="fab fa-instagram" data-aos="fade-up"></i>
+      </a>
+    </div>
+  </div>
+  <div class="SCROL"></div>
+
+  <script>
+    // JavaScript para el despliegue del menú
+    window.addEventListener('DOMContentLoaded', function() {
+      var dropdowns = document.getElementsByClassName('dropdown');
+      for (var i = 0; i < dropdowns.length; i++) {
+        dropdowns[i].addEventListener('mouseover', function() {
+          this.getElementsByClassName('dropdown-content')[0].style.display = 'block';
+        });
+        dropdowns[i].addEventListener('mouseout', function() {
+          this.getElementsByClassName('dropdown-content')[0].style.display = 'none';
+        });
+      }
+    });
+  </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+    });
+  </script>
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+    });
+  </script>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    }
+
+body {
+    background-color: rgb(255, 131, 109);
+    
+}
+.contenedor {
+    margin-top: 350px;
+}
+
+    .dlog {
+        height: 250px;
+    }
+
+    .icons {
+        margin-top: 100px;
+        width: 600px;
+        
+      }
+
+      .DEX {
+        font-size: 40px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        margin-top: -300px;
+        margin-left: 600px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .desc1 {
+        font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 600px;
+    width: 500px;
+    }
+
+    .boton1 {
+        transition: all 0.7s ease;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+        border: 0;
+        padding: 10px 20px;
+        background: #262626;
+        margin-left: 600px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 10px;
+    }
+    
+    .boton1:hover {
+        background: white;
+        color: black;
+        border-radius: 50px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    .ABA {
+        font-size: 46px;
+        font-weight: bold;
+        color: rgb(18, 18, 18);
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .social {
+        margin: 50px;
+        color: white;
+        margin-top: -100px;
+    }
+    
+    .social p {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .links a {
+        transition: all 0.7s ease;
+        margin: 0 30px;
+    
+    }
+    
+    .links i {
+        font-size: 3rem;
+        color: white;
+    }
+    
+    .links i:hover{
+        color: rgb(0, 119, 255);
+        transition: all 0.5s ease;
+    }
+    
+    .insta i:hover{
+        color: rgb(255, 53, 87);
+    }
+   .txt {
+    text-align: center;
+    background-color: #262626;
+    width: 500px;
+    height: 500px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 110px;
+    margin-left: 100px;
+    border-radius: 50px;
+    opacity: .5;
+   }
+
+#cuadro {
+    display: none;
+    
+}
+
+.boton2 {
+    transition: all 0.7s ease;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    padding: 10px 20px;
+    background: #262626;
+    margin-top: 50px;
+    margin-left: 290px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boton2:hover {
+    background: white;
+    color: black;
+}
+
+.over1 {
+    height: 827.5px;
+    margin-top: -500px;
+    width: 1903px;
+}
+
+.menu {
+    margin-top: -620px;
+    margin-left: 100px;
+    font-size: 20px;
+    
+}
+
+.menu:hover{
+}
+
+.over2 {
+    height: 700px;
+}
+
+.oover{
+    margin-left: -200px;
+    margin-top: -600px;
+}
+
+.contact:hover{
+opacity: .5;
+}
+
+.menuuno {
+   transition: all 0.5s ease;
+   
+}
+
+.menuuno:hover {
+    background-color: rgb(11, 16, 36);
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
+
+.SCROL {
+    height: 100px;
+}
+
+
+</style>
+
+</body>
+</html>
